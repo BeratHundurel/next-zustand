@@ -20,6 +20,7 @@ export default function Task({
           'border-2 border-emerald-500': status === 'DONE'
         }
       )}
+      draggable
     >
       <div>
         <h3 className='font-medium text-gray-700'>{title}</h3>
